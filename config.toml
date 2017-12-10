@@ -1,0 +1,364 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Kuo-Hao Zeng"
+theme = "hugo-agency-theme"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-97026471-1"
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Kuo-Hao Zeng"
+  description = "Your description"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Possibility to disable external/additional fonts
+  # Exception: Fontawesome
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
+
+  # Navigation
+  [params.navigation]
+    brand = "Kuo-Hao Zeng"
+    # Optional logo as brand stored in img/
+    #logo = "logo.svg"
+    aboutme = "Bio"
+    publications = "Publications"
+    projects = "Side Projects"
+    experiences = "Experiences"
+    people = "People"
+    teaching = "Teaching"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+  # AboutMe section
+  [params.aboutme]
+    enable = true
+    center = true
+    title = "About Me"
+    news = "<font color=red><strong>News:</strong></font> A Paper is accepted to AAAI 2018!"
+    subtitle = "I reveiced my MS from National Tsing Hua University, where I worked with Prof. Min Sun on Machine Learning (Deep Learning) and their applications in Robot Learning, Computer Vision, Natural Language Processing, and their intersection. I had the pleasure of being a visiting student working with Dr. Juan Carlos Niebles at Stanford Vision Lab. <br/><br/> My recent projects focus on robot learning, video forecasting, and visual-language understanding (reasoning). I've been researched on video captioning, video title generation, video question answering, and accident anticipation. <br/><br/> My <a href=https://KuoHaoZeng.github.io/assets/CV.pdf>CV [PDF]</a>, last updated November 2017."
+
+    [[params.aboutme.row]]
+      img = "Stanford.jpg"
+      bio = "Stanford <br/> Visiting Student <br/> Sept. 16 - Mar. 17"
+
+    [[params.aboutme.row]]
+      img = "nthu.jpg"
+      bio = "NTHU <br/> MS. in EE <br/> Sept. 14 - Jul. 17"
+
+    [[params.aboutme.row]]
+      img = "mediatek.jpg"
+      bio = "MediaTek <br/> Summber Intern <br/> Jul. 14 - Sept. 14"
+
+    [[params.aboutme.row]]
+      img = "NSYSU.jpg"
+      bio = "NSYSU <br/> BS. in MEM <br/> Sept. 10 - Jun. 14"
+
+    [[params.aboutme.row]]
+      img = "HIWIN.jpg"
+      bio = "HIWIN <br/> Summer Intern <br/> Jul. 13 - Aug. 13"
+
+  # Publications scetion
+  [params.publications]
+    enable = true
+    center = true
+    title = "Publications"
+
+    [[params.publications.row]]
+      img = "Anonymous.jpg"
+      title = "Anonymous"
+      authors = "<b>Kuo-Hao Zeng</b>, De-An Huang, Juan Carlos Niebles, Min Sun"
+      conference = "CVPR 2018"
+      links = [
+        [ "#", "arXiv (Comming Soon)" ]
+      ]
+
+    [[params.publications.row]]
+      img = "Anonymous.jpg"
+      title = "Anonymous"
+      authors = "Hung-Jui Huang, Tsun-Hsuan Wang, Juan-Ting Lin, Chan-Wei Hu, <b>Kuo-Hao Zeng</b>, Min Sun"
+      conference = "ICRA 2018"
+      links = [
+        [ "#", "arXiv (Comming Soon)" ]
+      ]
+
+    [[params.publications.row]]
+      img = "360grounding.jpg"
+      title = "Self-view Grounding Given a Narrated 360° Video"
+      authors = "Shih-Han Chou, Yi-Chun Chen, <b>Kuo-Hao Zeng</b>, Hou-Ning Hu, Jianlong Fu, Min Sun"
+      conference = "AAAI 2018 <br/> ICCV 2017 Workshop"
+      links = [
+        [ "https://arxiv.org/abs/1708.05827", "arXiv" ],
+        [ "http://aliensunmin.github.io/project/360grounding/", "project page" ],
+        [ "https://www.microsoft.com/en-us/research/publication/self-view-grounding-given-narrated-360-video/", "MSRA" ],
+        [ "https://sites.google.com/site/clvlworkshopiccv17/program", "workshop" ]
+      ]
+
+    [[params.publications.row]]
+      img = "ant_imitation.jpg"
+      title = "Visual Forecasting by Imitating Dynamics in Natural Sequences"
+      authors = "<b>Kuo-Hao Zeng</b>, William B. Shen, De-An Huang, Min Sun, Juan Carlos Niebles"
+      conference = "ICCV 2017 Spotlight"
+      links = [
+        [ "https://arxiv.org/abs/1708.05827", "arXiv" ],
+        [ "https://youtu.be/2cDnuoEbVmQ", "video" ],
+        [ "https://www.youtube.com/watch?v=8WVKeiZikjg", "talk" ]
+      ]
+
+    [[params.publications.row]]
+      img = "RiskAware.jpg"
+      title = "Agent-Centric Risk Assessment: Accident Anticipation and Risky Region Localization"
+      authors = "<b>Kuo-Hao Zeng</b>, Shih-Han Chou, Fu-Hsiang Chan, Juan Carlos Niebles, Min Sun"
+      conference = "CVPR 2017 Spotlight"
+      links = [
+        [ "https://arxiv.org/abs/1705.06560", "arXiv" ],
+        [ "https://www.youtube.com/watch?v=CGLZhd-c0hw", "video" ],
+        [ "http://aliensunmin.github.io/project/video-Forecasting/", "project page" ],
+        [ "https://goo.gl/forms/WtMgvkX7AErt454V2", "dataset" ]
+      ]
+
+    [[params.publications.row]]
+      img = "VideoQA.jpg"
+      title = "Leveraging Video Descriptions to Learn Video Question Answering"
+      authors = "<b>Kuo-Hao Zeng</b>, Tseng-Hung Chen, Ching-Yao Chuang, Yuan-Hong Liao, Juan Carlos Niebles, Min Sun"
+      conference = "AAAI 2017"
+      links = [
+        [ "https://arxiv.org/abs/1611.04021", "arXiv" ],
+        [ "http://aliensunmin.github.io/project/video-language/", "project page"],
+        [ "http://ug-video.com", "dataset"]
+      ]
+
+    [[params.publications.row]]
+      img = "VideoTitle.jpg"
+      title = "Title Generation for User Generated Videos"
+      authors = "<b>Kuo-Hao Zeng</b>, Tseng-Hung Chen, Juan Carlos Niebles, Min Sun"
+      conference = "ECCV 2016"
+      links = [
+        [ "https://arxiv.org/abs/1608.07068", "arXiv" ],
+        [ "https://youtu.be/KCTQ0vMsyDc", "video" ],
+        [ "http://aliensunmin.github.io/project/video-language/", "project page"],
+        [ "http://ug-video.com", "dataset"],
+        [ "https://www.microsoft.com/en-us/research/blog/bots-generate-video-titles-and-tags-to-bring-ai-researchers-one-step-closer-to-visual-intelligence/", "MSRA" ]
+      ]
+
+    [[params.publications.row]]
+      img = "VideoCap.jpg"
+      title = "Video Captioning via Sentence Augmentation and Spatio-Temporal Attention"
+      authors = "Tseng-Hung Chen, <b>Kuo-Hao Zeng</b>, Wan-Ting Hsu, Min Sun"
+      conference = "ACCV 2016 Workshop"
+      links = [
+        [ "https://drive.google.com/file/d/0B8EcGMvvvDXANkJvbGNPMGFMbkk/view", "PDF" ],
+      ]
+
+    [[params.publications.row]]
+      img = "HL.jpg"
+      title = "Semantic Highlight Retrieval and Term Prediction"
+      authors = "<b>Kuo-Hao Zeng</b>, Yen-Chen Lin, Ali Farhadi, Min Sun"
+      conference = "TIP 2017 <br/> ICIP 2016 <br/> CVPR 2015 Workshop"
+      links = [
+        [ "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7852483", "TIP PDF" ],
+        [ "http://ieeexplore.ieee.org/document/7852483/?arnumber=7852483&source=authoralert", "TIP IEEE"],
+        [ "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7532982", "ICIP PDF"],
+        [ "http://ieeexplore.ieee.org/document/7532982/?arnumber=7532982", "ICIP IEEE"],
+        [ "http://languageandvision.com", "Worksop"]
+      ]
+
+  # Projects section
+  [params.projects]
+    enable = true
+    title = "Side Projects"
+
+    [[params.projects.members]]
+      img = "MSRVTT.jpg"
+      name = "Microsoft - MSR Video to Language Challenge"
+      teamname = "NTHU_VSLab"
+      # For descriptions markdown and even multiline strings are available.
+      descriptions = """MSR Video to Language Challenge is a challenge hosted in ACMMM2016.
+      The challenge mainly facilitates the progress of video captioning."""
+      social = [
+        ["fa-link", "http://ms-multimedia-challenge.com/2016/challenge"],
+      ]
+
+    [[params.projects.members]]
+      img = "CVFX.jpg"
+      name = "Computer Vision for Visual Effects"
+      teamname = "Team 11"
+      # For descriptions markdown and even multiline strings are available.
+      descriptions = """CVFX is a graduate-level course at NTHU. We made up a team to conduct
+      all the course assignements, term project, and final project."""
+      social = [
+        ["fa-link", "https://sites.google.com/site/computervisionvisualeffectsg11/home"]
+      ]
+      
+
+
+    # Experiences section
+  [params.experiences]
+    enable = true
+    title = "Work & Research Experiences"
+    endpoint = "Ph.D. Study<br>begin in<br>Fall 2018!"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/experiences'.
+    # Replace them with your own.
+    [[params.experiences.events]]
+      img = "forecasting.png"
+      date = "Sept. 2016 - Mar. 2017"
+      title = "Visiting Student Researcher"
+      company = "Stanford Vision Lab"
+      description = "Research into cutting-edge AI technology on computer vision applications. The projects concentrate on visual forecasting, including accident anticipation and generalization of visual forecasting model."
+
+    [[params.experiences.events]]
+      img = "chatbot.jpg"
+      date = "Oct. 2014 - Aug. 2016"
+      title = "MS. Student Researcher"
+      company = "NTHU VSLab"
+      description = "Focus on computer vision, machine (deep) learning, and their intersection. Research topics centralize on vision-language. The projects include video titling and video QA."
+
+    [[params.experiences.events]]
+      img = "mtk.png"
+      date = "Jul. 2014 - Sept. 2014"
+      title = "Summer Intern"
+      company = "MediaTek"
+      description = "Develop efficient software/frameware tools to validate high speed communication circuits. The tools have to read/write the registers and pop up results."
+
+    [[params.experiences.events]]
+      img = "hd.jpg"
+      date = "Jul. 2013 - Aug. 2013"
+      title = "Summer Intern"
+      company = "HIWIN"
+      description = "Validate harmonic drive. Harmonic drive is a key component of a robot or a robotic arm. It locates at joints of a robotic system for gear reduction, increasing rotational speed, or differential gearing."
+
+
+  # People section
+  [params.people]
+    enable = true
+    # Possibility to center items
+    center = true
+    title = "Advisors & Collaborators"
+    subtitle = "** indicates advisor."
+
+    # All people member's pictures are stored under 'static/img/people'.
+    # Replace them with your own too.
+    # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
+    [[params.people.members]]
+      img = "MS.jpg"
+      link = "http://aliensunmin.github.io"
+      name = "Min Sun **"
+
+    [[params.people.members]]
+      img = "JC.jpg"
+      link = "http://www.niebles.net"
+      name = "Juan Carlos Niebles **"
+
+    [[params.people.members]]
+      img = "DA.jpg"
+      link = "http://ai.stanford.edu/~dahuang/"
+      name = "De-An Huang"
+
+    [[params.people.members]]
+      img = "William.jpg"
+      link = "https://scholar.google.com/citations?user=mOMChFIAAAAJ"
+      name = "William Bokui Shen"
+
+    [[params.people.members]]
+      img = "FH.jpg"
+      link = "https://smallcorgi.github.io/"
+      name = "Fu-Hsiang Chan"
+
+    [[params.people.members]]
+      img = "Paul.jpg"
+      link = "https://tsenghungchen.github.io"
+      name = "Tseng-Hung Chen"
+
+    [[params.people.members]]
+      img = "YC.jpg"
+      link = "http://yclin.me"
+      name = "Yen-Chen Lin"
+
+    [[params.people.members]]
+      img = "Andrew.jpg"
+      link = "http://andrewliao11.github.io/"
+      name = "Yuan-Hong Liao"
+
+    [[params.people.members]]
+      img = "James.jpg"
+      link = "http://jameschuanggg.github.io"
+      name = "Ching-Yao Chuang"
+
+    [[params.people.members]]
+      img = "SH.jpg"
+      link = "https://shihhanchou.github.io"
+      name = "Shih-Han Chou"
+
+  # Teaching section
+  [params.teaching]
+    enable = true
+    title = "Teaching"
+
+    [[params.teaching.row]]
+      time = "Spring 2015"
+      content = "Head TA, Signal & System, NTHU"
+
+    [[params.teaching.row]]
+      time = "Fall 2015"
+      content = "Head TA, Computer Vision, NTHU"
+
+  # Footer section
+  [params.footer]
+    enable = true
+
+    [[params.footer.social]]
+      icon = "fa-graduation-cap"
+      link = "https://scholar.google.com/citations?&user=Ci1QuLUAAAAJ&view_op=list_works"
+
+    [[params.footer.social]]
+      icon = "fa-envelope-o"
+      link = "khzeng@cs.stanford.edu"
+
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      link = "https://twitter.com/DeepHaoHao"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      link = "https://www.linkedin.com/in/%E5%9C%8B%E8%B1%AA-%E6%9B%BE-0165b7b9/?locale=en_US"
+
+    [[params.footer.social]]
+      icon = "fa-github"
+      link = "https://github.com/KuoHaoZeng"

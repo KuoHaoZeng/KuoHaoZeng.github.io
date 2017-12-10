@@ -1,0 +1,29 @@
+{{ "<!-- AboutMe -->" | safeHTML }}
+<section id="aboutme", class="bg-light-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text">
+        <h3 class="aboutme-news">{{ with .Site.Params.aboutme.news }}{{ . | markdownify }}{{ end }}</h3>
+        <div class="text-center">
+          <h2 class="section-heading">{{ with .Site.Params.aboutme.title }}{{ . }}{{ end }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="img/aboutme/bio.jpg" class="img-responsive img-rounded" style="float: right;">
+        <h3 class="aboutme-subheading">{{ with .Site.Params.aboutme.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+      {{ range .Site.Params.aboutme.row }}
+        <div class="col-xs-2 flexbox{{ if .Site.Params.aboutme.center }} flexbox-center{{ end }}">
+          <div class="aboutme-exp">
+            {{ $url := printf "img/aboutme/%s" .img }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-circle" alt="{{ .name }}">
+            <h4>{{ .bio | markdownify }}</h4>
+
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
