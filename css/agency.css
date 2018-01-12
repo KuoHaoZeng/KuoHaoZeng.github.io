@@ -367,8 +367,25 @@ section h3.section-subheading {
     }
 }
 
+@media(max-width:768px) {
+    section h2.section-heading {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    section h3.section-subheading {
+        margin-bottom: 75px;
+        text-transform: none;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+    }
+}
+
 .aboutme-news{
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   text-transform: none;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 22px;
@@ -376,13 +393,9 @@ section h3.section-subheading {
   font-weight: 400;
 }
 
-.aboutme-heading {
-    margin: 15px 0;
-    text-transform: none;
-}
-
 .aboutme-subheading {
-    margin-bottom: 75px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -399,16 +412,6 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
-.aboutme-exp p {
-    margin-top: 0;
-}
-.aboutme-exp h3 {
-    font-size: 18px;
-    text-transform: none;
-    font-weight: 400;
-    color: #333;
-}
-
 .aboutme-exp h4 {
     font-size: 16px;
     text-transform: none;
@@ -417,17 +420,49 @@ section h3.section-subheading {
     margin-bottom: 0px;
 }
 
+@media(max-width:768px) {
+    .aboutme-news{
+      margin-top: 0px;
+      margin-bottom: 15px;
+      text-transform: none;
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .aboutme-subheading {
+      margin-bottom: 20px;
+      text-transform: none;
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .aboutme-exp {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .aboutme-exp h4 {
+        font-size: 8px;
+        text-transform: none;
+        font-weight: 400;
+        color: #777;
+        margin-bottom: 0px;
+    }
+    .aboutme-exp img {
+        margin: 0 auto;
+        border: 3px solid #fff;
+    }
+}
+
 .publications-list {
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .publications-list img {
-    margin: 0 auto;
-    border: 7px solid #fff;
-}
-
-.publications-list .row{
-    margin-bottom: 0px;
+    height: 170px;
+    width: 300px;
+    margin-top: 0px;
 }
 
 .publications-list h3 {
@@ -435,6 +470,8 @@ section h3.section-subheading {
     text-transform: none;
     font-weight: 800;
     color: #333;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .publications-list h4 {
@@ -442,7 +479,7 @@ section h3.section-subheading {
     text-transform: none;
     font-weight: 200;
     color: #777;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .publications-list ul {
@@ -450,6 +487,51 @@ section h3.section-subheading {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 0;
+}
+
+.publications-list a {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+@media(max-width:768px) {
+    .publications-list {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .publications-list img {
+        height: 110px;
+        width: 140px;
+    }
+
+    .publications-list h3 {
+        font-size: 14px;
+        text-transform: none;
+        font-weight: 800;
+        color: #333;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+
+    .publications-list h4 {
+        font-size: 12px;
+        text-transform: none;
+        font-weight: 200;
+        color: #777;
+        margin-bottom: 4px;
+    }
+
+    .publications-list ul {
+        list-style: none;
+        margin-bottom: 4px;
+        padding: 0;
+    }
+
+    .publications-list a {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
 }
 
 .projects-member {
@@ -858,6 +940,18 @@ section h3.section-subheading {
     padding: 0;
 }
 
+@media(max-width:768px) {
+    .people-member img {
+        border: 3px solid #fff;
+    }
+    .people-member h3 {
+        text-transform: none;
+        font-weight: 600;
+        color: #333;
+        font-size: 12px;
+    }
+}
+
 .people-member h3:hover,
 .people-member h3:active,
 .people-member h3:focus{
@@ -886,6 +980,21 @@ section h3.section-subheading {
     font-weight: 200;
     color: #777;
     margin-bottom: 5px;
+}
+
+@media(max-width:764px) {
+    .teaching-heading {
+        margin: 15px 0;
+        text-transform: none;
+    }
+
+    .teaching-list h4 {
+        font-size: 14px;
+        text-transform: none;
+        font-weight: 200;
+        color: #777;
+        margin-bottom: 5px;
+    }
 }
 
 @media(min-width:992px) {
