@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #cc99ff;
 }
 
 p {
@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #9999cc;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #990099;
 }
 
 h1,
@@ -51,7 +51,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -69,12 +68,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #cc99ff;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #cc99ff;
 }
 
 .btn-primary:hover,
@@ -82,9 +81,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #9999cc;
     color: #fff;
-    background-color: #fec503;
+    background-color: #9999cc;
 }
 
 .btn-primary:active,
@@ -108,25 +107,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #cc99ff;
+    background-color: #cc99ff;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #cc99ff;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #cc99ff;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #cc99ff;
 }
 
 .btn-xl:hover,
@@ -134,9 +133,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #cc99ff;
     color: #fff;
-    background-color: #fec503;
+    background-color: #cc99ff;
 }
 
 .btn-xl:active,
@@ -160,12 +159,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #cc99ff;
+    background-color: #cc99ff;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #cc99ff;
     background-color: #fff;
 }
 
@@ -176,14 +175,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #cc99ff;
 }
 
 .navbar-brand>img {
@@ -195,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 @media(min-width:768px) {
     .navbar-brand>img {
         height: 50px;
-        max-width: 300px;
+        max-width: 200px;
         margin: -15px;
     }
 }
@@ -213,8 +212,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #cc99ff;
+    background-color: #cc99ff;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -223,11 +222,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #cc99ff;
 }
 
 .navbar-default .nav li a {
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
@@ -237,19 +235,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #cc99ff;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #cc99ff;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #cc99ff;
 }
 
 @media(min-width:768px) {
@@ -350,6 +348,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    font-family: Montserrat, "STKaiTi", "Helvetica Neue",arial,helvetica,sans-serif;
 }
 
 section h3.section-subheading {
@@ -372,6 +371,7 @@ section h3.section-subheading {
         margin-top: 0;
         margin-bottom: 10px;
         font-size: 20px;
+        font-family: Montserrat, "STKaiTi", "Helvetica Neue",arial,helvetica,sans-serif;
     }
 
     section h3.section-subheading {
@@ -388,8 +388,7 @@ section h3.section-subheading {
   margin-bottom: 30px;
   text-transform: none;
   font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 22px;
-  font-style: italic;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -398,8 +397,31 @@ section h3.section-subheading {
     margin-bottom: 50px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
+    line-height: 24px
+}
+
+.aboutme-info{
+  margin-bottom: 30px;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.aboutme-info2{
+  margin-top: -25px;
+  margin-bottom: 30px;
+  text-transform: none;
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.aboutme-img img {
+    width: 240px;
+    height: 240px;
 }
 
 .aboutme-exp {
@@ -408,8 +430,10 @@ section h3.section-subheading {
 }
 
 .aboutme-exp img {
+    width: 95px;
+    height: 95px;
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 5px solid #fff;
 }
 
 .aboutme-exp h4 {
@@ -427,8 +451,28 @@ section h3.section-subheading {
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 12px;
-      font-style: italic;
       font-weight: 400;
+    }
+    .aboutme-info{
+      margin-top: 0px;
+      margin-bottom: 15px;
+      text-transform: none;
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .aboutme-info2{
+      margin-top: -10px;
+      margin-bottom: -12px;
+      text-transform: none;
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+    .aboutme-img img {
+        margin-top: 23px;
+        width: 100px;
+        height: 100px;
     }
     .aboutme-subheading {
       margin-bottom: 20px;
@@ -436,6 +480,7 @@ section h3.section-subheading {
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 12px;
       font-weight: 400;
+      line-height: 12px
     }
     .aboutme-exp {
         margin-bottom: 50px;
@@ -446,9 +491,11 @@ section h3.section-subheading {
         text-transform: none;
         font-weight: 400;
         color: #777;
-        margin-bottom: 0px;
+        margin-bottom: -80px;
     }
     .aboutme-exp img {
+        width: 50px;
+        height: 50px;
         margin: 0 auto;
         border: 3px solid #fff;
     }
@@ -506,7 +553,7 @@ section h3.section-subheading {
     }
 
     .publications-list h3 {
-        font-size: 14px;
+        font-size: 13px;
         text-transform: none;
         font-weight: 800;
         color: #333;
@@ -588,6 +635,70 @@ section h3.section-subheading {
 
 .projects-descriptions {
     padding: 15px
+}
+
+@media(max-width:768px) {
+  .projects-member {
+      margin-bottom: 25px;
+      text-align: center;
+  }
+
+  .projects-member img {
+      height: 100px;
+      width: 150px;
+      margin: 0 auto;
+      border: 7px solid #fff;
+  }
+
+  .projects-member p {
+      margin-top: 0;
+  }
+  .projects-member h3 {
+      text-transform: none;
+      font-weight: 600;
+      font-size: 13px;
+      color: #333;
+  }
+
+  .projects-member h4 {
+      font-size: 12px;
+      text-transform: none;
+      font-weight: 400;
+      color: #777;
+      margin-bottom: 0px;
+  }
+
+  .projects-member h4 a {
+      text-transform: none;
+  }
+
+  .projects-member h5 {
+      font-size: 12px;
+      text-transform: none;
+      font-style: italic;
+      font-weight: 200;
+      color: #777;
+      margin-bottom: 5px
+  }
+
+  .projects-member h5 a {
+      text-transform: none;
+  }
+
+  .projects-member ul {
+      list-style: none;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      padding: 0;
+  }
+
+  .projects-descriptions {
+      padding: 15px;
+      font-size: 12px;
+      margin-top: -30px;
+      margin-bottom: -30px;
+  }
 }
 
 .service-heading {
@@ -738,7 +849,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #cc99ff;
 }
 
 .timeline>li .timeline-image h4 {
@@ -986,10 +1097,11 @@ section h3.section-subheading {
     .teaching-heading {
         margin: 15px 0;
         text-transform: none;
+        font-size: 14px;
     }
 
     .teaching-list h4 {
-        font-size: 14px;
+        font-size: 12px;
         text-transform: none;
         font-weight: 200;
         color: #777;
@@ -1043,7 +1155,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #cc99ff;
     box-shadow: none;
 }
 
@@ -1126,7 +1238,24 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #cc99ff;
+}
+
+@media(max-width:768px) {
+  ul.social-buttons li a {
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      font-size: 10px;
+      line-height: 22px;
+      outline: 0;
+      color: #fff;
+      background-color: #222;
+      -webkit-transition: all .3s;
+      -moz-transition: all .3s;
+      transition: all .3s;
+  }
 }
 
 .btn:focus,
@@ -1214,12 +1343,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #ccffff;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #ccccff;
 }
 
 img::selection {
@@ -1231,5 +1360,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #ccffff;
 }-
