@@ -450,7 +450,7 @@ section h3.section-subheading {
       margin-bottom: 15px;
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 400;
     }
     .aboutme-info{
@@ -458,7 +458,7 @@ section h3.section-subheading {
       margin-bottom: 15px;
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 400;
     }
     .aboutme-info2{
@@ -466,19 +466,19 @@ section h3.section-subheading {
       margin-bottom: -12px;
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 400;
     }
     .aboutme-img img {
-        margin-top: 35px;
-        width: 75px;
-        height: 75px;
+        margin-top: 40px;
+        width: 65px;
+        height: 65px;
     }
     .aboutme-subheading {
       margin-bottom: 20px;
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 400;
       line-height: 12px
     }
@@ -487,15 +487,15 @@ section h3.section-subheading {
         text-align: center;
     }
     .aboutme-exp h4 {
-        font-size: 8px;
+        font-size: 7px;
         text-transform: none;
         font-weight: 400;
         color: #777;
         margin-bottom: -80px;
     }
     .aboutme-exp img {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         margin: 0 auto;
         border: 3px solid #fff;
     }
@@ -541,6 +541,19 @@ section h3.section-subheading {
     margin-bottom: 4px;
 }
 
+.publications-list .btn-primary {
+    border-color: #9999cc;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #9999cc;
+}
+.publications-list .btn-primary:hover {
+    border-color: #990099;
+    background-color: #990099;
+}
+
 @media(max-width:768px) {
     .publications-list {
       margin-top: 10px;
@@ -548,8 +561,8 @@ section h3.section-subheading {
     }
 
     .publications-list img {
-        height: 77px;
-        width: 140px;
+        height: 67px;
+        width: 130px;
     }
 
     .publications-list h3 {
@@ -566,7 +579,7 @@ section h3.section-subheading {
         text-transform: none;
         font-weight: 200;
         color: #777;
-        margin-bottom: 4px;
+        margin-bottom: -10px;
     }
 
     .publications-list ul {
@@ -578,6 +591,20 @@ section h3.section-subheading {
     .publications-list a {
         font-size: 10px;
         margin-bottom: 4px;
+    }
+    .publications-list .btn-primary {
+        border-color: #9999cc;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        font-size: 8px;
+        color: #fff;
+        background-color: #9999cc;
+        margin-right: -10px;
+    }
+    .publications-list .btn-primary:hover {
+        border-color: #990099;
+        background-color: #990099;
     }
 }
 
@@ -1248,7 +1275,7 @@ ul.social-buttons li a:active {
       height: 15px;
       border-radius: 100%;
       font-size: 10px;
-      line-height: 16px;
+      line-height: 15px;
       outline: 0;
       color: #fff;
       background-color: #222;
