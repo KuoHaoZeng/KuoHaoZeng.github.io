@@ -406,7 +406,7 @@ section h3.section-subheading {
 }
 
 .aboutme-subheading {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -490,6 +490,7 @@ section h3.section-subheading {
         height: 65px;
     }
     .aboutme-subheading {
+      margin-top: 10px;
       margin-bottom: 20px;
       text-transform: none;
       font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
