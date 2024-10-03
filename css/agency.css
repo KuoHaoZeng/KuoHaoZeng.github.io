@@ -287,7 +287,6 @@ header {
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
-    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1422,4 +1421,4 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #ccffff;
-}-
+}
