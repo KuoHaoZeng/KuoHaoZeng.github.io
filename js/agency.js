@@ -24,10 +24,8 @@ $(document).ready(function(){
       $('.navbar-default').removeClass('navbar-shrink');
     }
   });
-});
-
-$(document).ready(function(){
-  var maxOffset = 300;
+  
+  // Initial check on page load
   if ($(window).scrollTop() >= maxOffset) {
     $('.navbar-default').addClass('navbar-shrink');
   }
